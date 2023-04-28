@@ -1,72 +1,95 @@
-
-
-
-
 body{
-    margin: 0px;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.05);
+  margin: 0px;
+  height: 100%;
 }
 .btn{
-    background-image: linear-gradient(to right, #05A6FA, #5E18DB);  
-    border-radius: 14px;
-    width: 200px;
-    height: 40px;
-    text-align: center;
-    border: none;
-    color: #fff;
-    
-    font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, #05A6FA, #5E18DB);  
+  border-radius: 14px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  color: #fff;
+ 
+  font-family: Arial, Helvetica, sans-serif;
 }
 .btn:hover{
-    background-image: linear-gradient(to right, #030a0e, #5E18DB);  
-    transition-duration: 1s;
+  background-image: linear-gradient(to right, #030a0e, #5E18DB);  
+  transition-duration: 1s;
 
 }
 img, svg {
-    vertical-align: middle;
-    width: 330px;
-  }
+  vertical-align: middle;
+  width: 330px;
+}
 .s1{
-    width: 200px;
+  width: 200px;
 }
 .d-none{
-    background-color: #891fcf;
+  background-color: #891fcf;
 }
 
 .inp1{
-   
-    background-image: url('img/person\ 1.svg');
-    position: center;
-    padding-left: 45px;
-  
-  padding-top: 10px;
-    background-size: 35px;
-    background-repeat: no-repeat;
-  
-  }
-  .inp2{
-   
-    background-image: url('img/lock-closed\ 1.svg');
-    position:center;
-    padding-left: 45px;
-   
-    background-size: 30px;
-    background-repeat: no-repeat;
-  
-  }
-  @media (min-width:768px) {
-    .section1{
-        width: 600px;
-        align-content: center;
-        align-items: center;
-        margin-left: 150px;
-      
-    }
-   
-  }
+ 
+  background-image: url('img/person\ 1.svg');
+  position: center;
+  padding-left: 45px;
 
-  a{
-    text-decoration: none;
-    color: #794af8;
+padding-top: 10px;
+  background-size: 35px;
+  background-repeat: no-repeat;
+
+}
+.inp2{
+  width: 390px;
+  height: 40.57px;
+background: #FFFFFF;
+border: 1.24426px solid rgba(0, 0, 0, 0.3);
+border-radius: 33.664px;
+ 
+  background-image: url('img/lock-closed\ 1.svg');
+  position:center;
+  padding-left: 45px;
+ 
+  background-size: 30px;
+  background-repeat: no-repeat;
+
+}
+@media (min-width:768px) {
+  .section1{
+      width: 500px;
+      align-content: center;
+      align-items: center;
+      margin-left: 150px;
+    
   }
+ 
+}
+@media only screen and (max-width: 576px) {
+  .inp2 ,.inp1{
+    
+  width: 250px;
+
+
+  }
+  .fa-eye{
+
+    margin-right: -80px;
+    margin-top: -20px;
+  }
+ 
+}
+.fa-eye{
+
+margin-left: -30px;
+margin-top: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #794af8;
+}
+.icon{
+  margin-left: 30px;
+  margin-top: -200px;
+}
